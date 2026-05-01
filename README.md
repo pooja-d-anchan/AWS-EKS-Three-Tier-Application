@@ -116,14 +116,14 @@ kubectl apply -f ingress.yaml
 ---
 
 🚀 Frontend (Hosted):
-https://your-app.pages.dev
+https://aws-eks-three-tier-application.vercel.app/
 
-⚠️ Note:
-The full-stack application was deployed on AWS EKS using a temporary cluster.
-To optimize costs, the backend services and load balancer are no longer active.
+⚠️ Note: This project was deployed on AWS EKS using a temporary production-style cluster. 
+To optimize AWS costs, the EKS cluster and ALB resources are currently decommissioned. 
+Source code, Kubernetes manifests, and deployment steps are fully available in this repository.
 
 🎥 Demo Video:
-https://your-video-link
+https://www.loom.com/share/08c50f4145d84fd0911915ff411b2b42
 
 ---
 
